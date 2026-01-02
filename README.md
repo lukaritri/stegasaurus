@@ -1,5 +1,5 @@
-# COM31006 Assignment
-This project contains the source code for the COM31006 assignment. It is a Flask web application called Stegasaurus that contains a number of tools for image-to-image steganography and watermarking.
+# Stegasaurus
+This project contains the source code for computer vision assignment. It is a Flask web application called Stegasaurus that contains a number of tools for image-to-image steganography and watermarking.
 
 ## Setup
 A custom conda environment is included in the file `environment.yml`, and the environment is called `stegasaurus`.
