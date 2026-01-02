@@ -1,0 +1,14 @@
+{% extends 'upload.html' %}
+
+{% block content %}
+    <h1> {% block title %} Verify Authenticity {% endblock %} </h1>
+    <p>Verify an image's authenticity by checking if it contains a watermark.</p>
+{% endblock %}
+
+{% block coverText %}
+    Upload the image to check for authenticity.
+{% endblock %}
+
+{% block waterText %}
+    Upload the watermark to check.
+{% endblock %}

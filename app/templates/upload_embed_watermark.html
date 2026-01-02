@@ -1,0 +1,14 @@
+{% extends 'upload.html' %}
+
+{% block content %}
+    <h1> {% block title %} Embed Watermark {% endblock %} </h1>
+    <p>Embed a watermark within an image using SIFT and LSB.</p>
+{% endblock %}
+
+{% block coverText %}
+    Upload the cover image that the watermark will be embedded in.
+{% endblock %}
+
+{% block waterText %}
+    Upload the watermark to embed. For best results, use a small black and white image.
+{% endblock %}
